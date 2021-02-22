@@ -1,0 +1,17 @@
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-left: 2.8rem;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+}
+
+.nav__link {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

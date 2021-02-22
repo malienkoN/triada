@@ -18,6 +18,13 @@ body {
   color: $blue-dark;
 }
 
+.container {
+  width: 100%;
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -35,9 +42,9 @@ body {
   height: auto;
 }
 
-1, h2, h3, h4, h5, h6 {
-     margin: 0;
-   }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 
 p {
   margin: 0;

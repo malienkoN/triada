@@ -7,6 +7,192 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__logo img" src="img/logo.png" width="129" height="129" alt="Триада">
+
+                <div class="header__catalog-wrapper">
+                    <button class="header__catalog-btn btn" type="button" aria-label="Каталог">
+                        <svg width="23" height="23" viewBox="0 0 23 23">
+                            <use xlink:href="img/sprite.svg#icon-catalog"></use>
+                        </svg>
+                        <span>Каталог продукции</span>
+                    </button>
+                    <ul class="catalog-dropdown">
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-1"></use>
+                                </svg>
+                                Трубы круглые
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="img/sprite.svg#icon-2"></use>
+                                </svg>
+                                Трубы квадратные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="22" height="22" viewBox="0 0 22 22">
+                                    <use xlink:href="img/sprite.svg#icon-3"></use>
+                                </svg>
+                                Трубы прямоугольные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="11" height="19" viewBox="0 0 11 19">
+                                    <use xlink:href="img/sprite.svg#icon-4"></use>
+                                </svg>
+                                Трубы плоско (-овальные)
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="23" height="20" viewBox="0 0 23 20">
+                                    <use xlink:href="img/sprite.svg#icon-5"></use>
+                                </svg>
+                                Трубы треугольные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-1"></use>
+                                </svg>
+                                Трубы ВГП
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="25" height="22" viewBox="0 0 25 22">
+                                    <use xlink:href="img/sprite.svg#icon-6"></use>
+                                </svg>
+                                Листы холоднокатаные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="25" height="22" viewBox="0 0 25 22">
+                                    <use xlink:href="img/sprite.svg#icon-6"></use>
+                                </svg>
+                                Листы горячекатаные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-7"></use>
+                                </svg>
+                                Круг
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-8"></use>
+                                </svg>
+                                Уголок
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="15" height="25" viewBox="0 0 15 25">
+                                    <use xlink:href="img/sprite.svg#icon-9"></use>
+                                </svg>
+                                Полоса
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="img/sprite.svg#icon-10"></use>
+                                </svg>
+                                Квадрат
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Справочная информация</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Оплата-Доставка</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <ul class="header__action">
+                <li class="header__action-item">
+                    <a class="header__action-link" id="tel-dropdown" href="tel:380974343543">
+                        <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +38 (097) 43 43 543
+                        <svg class="header__action-icon__dropdown"  width="20" height="20" viewBox="0 0 20 20">
+                            <use xlink:href="img/sprite.svg#icon-dropdown"></use>
+                        </svg>
+                    </a>
+                    <ul class="tel-dropdown">
+                        <li class="tel-dropdown__item">
+                            <a class="tel-dropdown__link" href="tel:380974343543">
+                                <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                </svg>
+                                +38 (097) 43 43 543
+                            </a>
+                        </li>
+                        <li class="tel-dropdown__item">
+                            <a class="tel-dropdown__link" href="tel:380974343543">
+                                <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                </svg>
+                                +38 (097) 43 43 543
+                            </a>
+                        </li>
+                        <li class="tel-dropdown__item">
+                            <a class="tel-dropdown__link" href="tel:380974343543">
+                                <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                </svg>
+                                +38 (097) 43 43 543
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="header__action-item">
+                    <a class="header__action-link" id="search-dropdown" href="#">
+                        <svg class="header__action-icon__search" width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                        Поиск
+                    </a>
+                    <form class="search-dropdown" action="/" method="get">
+                        <input class="search-dropdown__input" type="text" placeholder="Поиск по сайту…" autocomplete="off">
+                        <button class="search-dropdown__btn btn" type="submit">
+                            <svg  width="25" height="25" viewBox="0 0 25 25">
+                                <use xlink:href="img/sprite.svg#icon-search-dropdown"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
