@@ -36,4 +36,10 @@ $(document).ready(function () {
         dots: true,
         loop: true,
     });
+
+    let i = 1;
+    $('.owl-dot').each(function () {
+        $(this).find('span').html(i);
+        i++;
+    });
 });
