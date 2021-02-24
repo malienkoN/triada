@@ -1,0 +1,139 @@
+.owl-carousel .item {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    z-index: 1;
+    background-color: #31446e;
+  }
+}
+
+.owl__inner {
+  padding-left: 12.8rem;
+  position: relative;
+  z-index: 2;
+
+  color: $white;
+}
+
+.owl__suptitle {
+  font-weight: 500;
+  font-size: 3.4rem;
+}
+
+.owl__title {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 8.1rem;
+}
+
+.owl__text {
+  margin-left: 1.4rem;
+  max-width: 56rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.owl__link {
+  margin-left: 2.7rem;
+  padding-bottom: .9rem;
+  font-size: 1.9rem;
+  font-weight: 900;
+
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #bf334d;
+    transition: width .3s ease-out;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+
+  span {
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  bottom: 4.6%;
+  left: 6.25%;
+  z-index: 1;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background-color: transparent;
+  border: 2px solid $white;
+
+  &:focus {
+    outline: none;
+  }
+
+  span {
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+    padding: 0 1.8rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  margin-right: 1.5rem;
+}
+
+.owl-dots {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-dot {
+  margin-bottom: 3rem;
+  background-color: $black!important;
+  width: 8rem;
+  height: 2px;
+  position: relative;
+  z-index: 1;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.owl-dot.active {
+}

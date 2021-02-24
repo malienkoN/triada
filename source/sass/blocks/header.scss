@@ -1,5 +1,11 @@
-.header--white {
-  background-color: $blue;
+.header {
+  padding-top: 1rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
   color: $white;
 
   svg {
@@ -181,9 +187,17 @@
 
   .header__action-item:last-of-type {
     display: block;
+    padding-right: 0;
   }
 
   .header__action-item:nth-of-type(2) {
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .header__logo {
+    width: 8rem;
+    height: 8rem;
   }
 }

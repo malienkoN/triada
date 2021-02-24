@@ -28,5 +28,12 @@ $(document).ready(function () {
 
         $(this).toggleClass('active');
         nav.fadeToggle();
-    })
+    });
+
+    $('.owl-carousel').owlCarousel({
+        items: 1,
+        nav: true,
+        dots: true,
+        loop: true,
+    });
 });
