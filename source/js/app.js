@@ -20,4 +20,13 @@ $(document).ready(function () {
         $(this).next('.search-dropdown').fadeToggle();
     });
 
+
+    const nav = $('#nav');
+    const navToggle = $('#nav__toggle');
+
+    navToggle.click(function (e) {
+
+        $(this).toggleClass('active');
+        nav.fadeToggle();
+    })
 });

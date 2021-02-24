@@ -118,3 +118,15 @@
     width: 25rem;
   }
 }
+
+@media (max-width: 1199px) {
+  .catalog-dropdown__link {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .catalog-dropdown__link {
+    font-size: 1.6rem;
+  }
+}
