@@ -18,6 +18,16 @@ body {
   color: $blue-dark;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  body.lock-mobile {
+    overflow: hidden;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 1740px;

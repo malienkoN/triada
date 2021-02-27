@@ -157,3 +157,94 @@
 .owl-dot.active {
   width: 10rem;
 }
+
+@media (max-width: 1299px) {
+  .owl__suptitle {
+    font-size: 3rem;
+  }
+
+  .owl__title {
+    font-size: 7.5rem;
+  }
+
+  .owl__inner {
+    padding-left: 10rem;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .owl__title {
+    font-size: 6rem;
+  }
+
+  .owl__inner {
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .owl__suptitle {
+    font-size: 2.8rem;
+  }
+
+  .owl__title {
+    font-size: 5.5rem;
+  }
+
+  .owl__inner {
+    padding-left: 0;
+  }
+
+  .owl-carousel .item {
+    min-height: 80rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .owl__text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .owl__suptitle {
+    font-size: 2.5rem;
+  }
+
+  .owl__title {
+    font-size: 5rem;
+  }
+
+  .owl__link {
+    font-size: 1.6rem;
+
+    span {
+      font-size: 1.4rem;
+      margin-left: .5rem;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .owl__suptitle {
+    font-size: 2.2rem;
+  }
+
+  .owl__title {
+    font-size: 4.5rem;
+  }
+
+  .owl__link {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .owl__suptitle {
+    font-size: 2rem;
+  }
+
+  .owl__title {
+    font-size: 4rem;
+  }
+}

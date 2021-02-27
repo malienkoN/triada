@@ -40,8 +40,6 @@
 //tel-dropdown
 
 .tel-dropdown {
-  display: none;
-
   width: 20rem;
   padding: 1.5rem 1rem;
   background-color: $white;
@@ -75,8 +73,6 @@
 //search-dropdown
 
 .search-dropdown {
-  display: none;
-
   position: absolute;
   right: 0;
   top: 190%;
@@ -128,5 +124,55 @@
 @media (max-width: 991px) {
   .catalog-dropdown__link {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .tel-dropdown {
+    width: auto;
+    box-shadow: none;
+    padding: 0;
+    position: static;
+  }
+
+  .search-dropdown {
+    position: relative;
+  }
+
+  .search-dropdown__input {
+    width: 100%;
+    padding: 0 2.5rem .5rem 0;
+    color: $blue;
+    border-color: $blue;
+
+    &::placeholder {
+      color: $blue;
+    }
+  }
+
+  .search-dropdown__btn {
+    width: 2rem;
+    height: 2rem;
+    top: 0;
+
+    svg {
+      fill: $blue;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .catalog-dropdown {
+    top: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .catalog-dropdown {
+    overflow-y: auto;
+    height: 300px;
   }
 }

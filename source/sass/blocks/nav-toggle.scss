@@ -63,3 +63,14 @@
     display: block;
   }
 }
+
+@media (max-width: 575px) {
+  .nav-toggle__item {
+    background-color: $blue;
+
+    &:before,
+    &:after {
+      background-color: $blue;
+    }
+  }
+}
