@@ -1,0 +1,48 @@
+.side {
+  padding: 0 1.5rem 0 1.2rem;
+  background-color: $blue;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+
+  position: fixed;
+  right: 0;
+  top: 25%;
+  z-index: 2;
+}
+
+.side__list-item {
+  padding: 2rem 0;
+}
+
+.side__list-item + .side__list-item {
+  border-top: 1px solid #254898;
+}
+
+.side__list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  svg {
+    fill: $white;
+  }
+}
+
+.side__list-cart-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 18px;
+  height: 18px;
+  background-color: #bf334d;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: $white;
+
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}

@@ -14,3 +14,16 @@
     outline: none;
   }
 }
+
+.btn--classic {
+  font-size: 1.9rem;
+  color: $white;
+  background-color: $blue;
+  transition: background-color .2s linear;
+
+  padding: 1.4rem 5rem;
+
+  &:hover {
+    background-color: darken($blue, 5%);
+  }
+}
