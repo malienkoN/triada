@@ -91,12 +91,14 @@ $(document).ready(function () {
         if (e.keyCode === 27) {
             e.stopPropagation();
             $('.modal-fade').fadeOut();
+            $('body').removeClass('lock');
         }
     });
 
     $('.modal-fade').click(function(e) {
         if ($(e.target).closest('.modal').length === 0) {
             $(this).fadeOut();
+            $('body').removeClass('lock');
         }
     });
 });
