@@ -1,0 +1,127 @@
+.works {
+  margin: 8rem 0 0;
+}
+
+.works__container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.works__inner {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 3rem;
+}
+
+.works__row {
+  display: grid;
+  grid-template-columns: 47rem 37rem 27rem;
+  grid-column-gap: 3rem;
+
+  &--sm-first {
+    grid-template-columns: 27rem 47rem 37rem;
+  }
+
+  &--lg-first {
+    grid-template-columns: 37rem 27rem 47rem;
+  }
+}
+
+.works__item {
+  min-height: 24.5rem;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  transition: box-shadow .3s ease-in-out;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.65;
+    z-index: 2;
+    transition: opacity .4s;
+    background-color: $blue;
+  }
+}
+
+.works__item-content {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: calc(100% - 4rem);
+  transition: all .4s;
+
+  padding: 0 2rem;
+}
+
+.works__item-title {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.works__item-text {
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+
+.works__item-link {
+  width: max-content;
+  padding-bottom: .5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #bf334d;
+    transition: width 1s ease-in-out;
+  }
+
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
+
+/* works__item:hover */
+.works__item:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .16);
+}
+
+.works__item:hover:after {
+  opacity: 0.75;
+}
+
+.works__item:hover .works__item-content {
+  top: 3rem;
+}
+
+.works__item:hover .works__item-link:after {
+  width: 100%;
+}

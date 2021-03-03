@@ -3,3 +3,20 @@
   margin-bottom: 17rem;
   padding-left: 5rem;
 }
+
+.section--works {
+  margin-bottom: 18rem;
+  position: relative;
+
+  &:before {
+    @include circle;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:after {
+    @include rectangle;
+    top: 26rem;
+    right: 0;
+  }
+}

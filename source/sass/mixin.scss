@@ -1,0 +1,25 @@
+@mixin circle {
+  content: '';
+  display: block;
+  width: 564px;
+  height: 564px;
+
+  background: url('../img/circle.png') center no-repeat;
+  background-size: contain;
+
+  position: absolute;
+  z-index: -2;
+}
+
+@mixin rectangle {
+  content: '';
+  display: block;
+  width: 636px;
+  height: 636px;
+
+  background: url('../img/rectangle.png') center no-repeat;
+  background-size: contain;
+
+  position: absolute;
+  z-index: -2;
+}
