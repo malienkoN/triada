@@ -27,3 +27,11 @@
     background-color: darken($blue, 5%);
   }
 }
+
+@media (max-width: 1199px) {
+  .btn--classic {
+    font-size: 1.6rem;
+
+    padding: 1.4rem 4rem;
+  }
+}

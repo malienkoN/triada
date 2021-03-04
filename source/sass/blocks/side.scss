@@ -6,7 +6,7 @@
   position: fixed;
   right: 0;
   top: 25%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .side__list-item {
@@ -45,4 +45,34 @@
   position: absolute;
   right: -7px;
   top: -7px;
+}
+
+@media (max-width: 1299px) {
+  .side__list-link {
+
+    .side__icon-phone {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .side__icon-cart {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+
+  .side__list-cart-number {
+
+    min-width: 15px;
+    height: 15px;
+    font-size: 1rem;
+
+    position: absolute;
+    right: -7px;
+    top: -7px;
+  }
+
+  .side {
+    padding: 0 1rem;
+  }
 }

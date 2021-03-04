@@ -38,3 +38,39 @@
   top: auto;
   text-transform: uppercase;
 }
+
+@media (max-width: 1499px) {
+  .title__sub {
+    font-size: 25rem;
+  }
+
+  .title--main {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1299px) {
+  .title__sub {
+    font-size: 20rem;
+  }
+
+  .title--main {
+    font-size: 3.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 879px) {
+  .title__sub {
+    font-size: 18rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .title__sub {
+    display: none;
+  }
+}

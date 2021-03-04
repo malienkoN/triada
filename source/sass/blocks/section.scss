@@ -1,5 +1,5 @@
 .section--about {
-  margin-top: 30rem;
+  padding-top: 30rem;
   margin-bottom: 17rem;
   padding-left: 5rem;
 }
@@ -18,5 +18,34 @@
     @include rectangle;
     top: 26rem;
     right: 0;
+  }
+}
+
+@media (max-width: 1599px) {
+  .section--works {
+
+    &:before {
+      background-position: left center;
+      left: -10%;
+      bottom: -5%;
+    }
+
+    &:after {
+      background-position: right center;
+      right: -10%;
+      top: 10%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .section--about {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .section--about {
+    padding-top: 15rem;
   }
 }

@@ -20,7 +20,7 @@
 }
 
 .callback__form-input {
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 1.9rem;
   font-weight: 400;
@@ -44,4 +44,50 @@
 .callback__btn {
   margin: 0 auto;
   display: block;
+}
+
+@media (max-width: 1299px) {
+  .callback {
+    padding: 5rem 7rem;
+  }
+
+  .callback__title {
+    margin-bottom: 5rem;
+    font-size: 2.2rem;
+  }
+
+  .callback__form-inner {
+    margin-bottom: 5rem;
+
+    grid-template-rows: 5rem 5rem;
+    grid-row-gap: 3rem;
+  }
+
+  .callback__form-input {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .callback__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .callback {
+    padding: 5rem 2rem 4rem;
+  }
+
+  .callback__title {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .callback__form-inner {
+    margin-bottom: 4rem;
+
+    grid-template-rows: 4.5rem 4.5rem;
+    grid-row-gap: 2.5rem;
+  }
 }

@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.owl-carousel {
+  z-index: 0;
+}
+
 .owl-carousel .item {
   width: 100%;
   min-height: 100vh;
@@ -164,7 +168,7 @@
 
 .owl__scroll-down {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
