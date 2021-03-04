@@ -43,7 +43,7 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 
-    $('.owl-carousel').owlCarousel({
+    $('.slide-one').owlCarousel({
         items: 1,
         loop: true,
         responsive:{
@@ -100,6 +100,14 @@ $(document).ready(function () {
             $(this).fadeOut();
             $('body').removeClass('lock');
         }
+    });
+
+    //card-slider
+    $('.slide-two').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: true,
+        items: 3,
     });
 });
 
