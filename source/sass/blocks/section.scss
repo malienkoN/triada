@@ -21,6 +21,18 @@
   }
 }
 
+.section--services {
+  margin-bottom: 11rem;
+  position: relative;
+
+  &:before {
+    @include circle;
+    top: 50%;
+    transform: translateY(-40%);
+    left: -10%;
+  }
+}
+
 @media (max-width: 1599px) {
   .section--works {
 
@@ -44,7 +56,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .section--about {
     padding-top: 15rem;
   }
