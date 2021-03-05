@@ -105,9 +105,30 @@ $(document).ready(function () {
     //card-slider
     $('.slide-two').owlCarousel({
         loop: true,
-        margin: 30,
-        dots: true,
         items: 3,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                margin: 15,
+            },
+
+            767: {
+                items: 2,
+                dots: false,
+                margin: 15,
+            },
+
+            991: {
+                dots: true,
+                items: 2,
+                margin: 30,
+            },
+
+            1199: {
+                items: 3,
+            }
+        }
     });
 });
 

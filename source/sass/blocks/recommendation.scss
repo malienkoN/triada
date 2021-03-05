@@ -29,6 +29,7 @@
     opacity: 0.6;
     z-index: 1;
     background-color: $blue;
+    transition: opacity .4s linear;
   }
 }
 
@@ -37,7 +38,7 @@
   height: 100%;
   position: relative;
   z-index: 2;
-  padding: 10rem 3rem 2rem;
+  padding: 10rem 2rem 2rem 3rem;
 }
 
 .recommendation__banner-title {
@@ -65,7 +66,7 @@
     left: 0;
     bottom: 0;
     background-color: #bf334d;
-    transition: width .2s linear;
+    transition: width .4s linear;
   }
 
   span {
@@ -78,4 +79,71 @@
 
 .recommendation__banner:hover .recommendation__banner-link:after {
   width: 100%;
+}
+
+.recommendation__banner:hover:after {
+  opacity: 0.8;
+}
+
+@media (max-width: 1499px) {
+  .recommendation {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  .recommendation__banner-content {
+    padding: 7rem 2rem 2rem;
+  }
+
+  .recommendation__banner-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1299px) {
+  .recommendation {
+    padding: 0 3rem 0 2rem;
+  }
+
+  .recommendation__banner-title {
+    font-size: 2.8rem;
+  }
+
+  .recommendation__banner-link {
+    font-size: 1.6rem;
+
+    span {
+      font-size: 1.4rem;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .recommendation {
+    padding: 0 1rem;
+  }
+
+  .recommendation__banner-content {
+    padding: 5rem 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .recommendation__banner-title {
+    font-size: 2.5rem;
+  }
+
+  .recommendation {
+    padding: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .recommendation__banner {
+    height: 30rem;
+    max-height: 100%;
+    margin: 3rem auto 0;
+  }
 }

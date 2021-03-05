@@ -18,6 +18,14 @@
   background-color: #193db9!important;
 }
 
-//.slide-two .owl-stage {
-//  padding: 1rem 0;
-//}
+@media (max-width: 1299px) {
+  .slide-two .owl-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 .9rem;
+  }
+
+  .slide-two .owl-dots {
+    bottom: -3rem;
+  }
+}

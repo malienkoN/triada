@@ -65,3 +65,77 @@
   background: none;
   cursor: pointer;
 }
+
+@media (max-width: 1399px) {
+  .card__title {
+    font-size: 1.8rem;
+  }
+
+  .card__btn {
+    margin: 1rem 0 0 2rem;
+    width: 3rem;
+    height: 3rem;
+
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}
+
+@media (max-width: 1299px) {
+  .card__content {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .card__btn {
+    margin: 1rem 0 0 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .card__content {
+    padding: 3rem 1rem;
+  }
+
+  .card__btn {
+    margin: 1rem 0 0 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+
+    svg {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+
+  .card__title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .card__btn {
+    margin: 1rem 0 0 3rem;
+    width: 2.2rem;
+    height: 2.2rem;
+
+    svg {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .card__content {
+    padding: 4rem 2rem;
+  }
+}
