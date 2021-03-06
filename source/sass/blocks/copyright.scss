@@ -1,0 +1,18 @@
+.copyright {
+  background-color: #0c1e5c;
+  color: $white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright__text, .copyright__link {
+  font-size: 1.4rem;
+  font-weight: 400;
+}

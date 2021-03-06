@@ -1,0 +1,88 @@
+.contact-us {
+  color: $white;
+
+  svg {
+    fill: $white;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+
+    svg {
+      margin-right: .9rem;
+    }
+  }
+}
+
+.contact-us__subtitle {
+  margin-bottom: 1rem;
+  color: #afafaf;
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  &.first {
+    margin-bottom: 0;
+  }
+}
+
+.contact-us__title {
+  margin-bottom: 3rem;
+  font-size: 3.3rem;
+  font-weight: 700;
+}
+
+.contact-us__address {
+  margin-bottom: 3rem;
+  max-width: 32rem;
+  font-style: normal;
+  font-size: 1.9rem;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: flex-start;
+
+  svg {
+    margin-top: .5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.contact-us__phone-lists {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 5rem;
+
+  li {
+    margin-bottom: .5rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.contact-us__mail-list {
+  margin-bottom: 3rem;
+
+  li {
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.contact-us__link {
+  padding: 1.5rem 3.5rem;
+  display: block;
+  width: max-content;
+  background-color: $white;
+  color: $blue;
+  font-size: 1.9rem;
+  font-weight: 400;
+}

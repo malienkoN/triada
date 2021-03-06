@@ -127,6 +127,7 @@ $(document).ready(function () {
 
             1199: {
                 items: 3,
+                margin: 30,
             }
         }
     });
