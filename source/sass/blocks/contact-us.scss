@@ -85,4 +85,10 @@
   color: $blue;
   font-size: 1.9rem;
   font-weight: 400;
+
+  transition: background-color .2s linear;
+
+  &:hover {
+    background-color: darken($white, 5%);
+  }
 }

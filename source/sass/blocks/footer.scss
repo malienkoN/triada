@@ -1,5 +1,6 @@
 .footer {
   background-color: $blue;
+  position: relative;
 }
 
 .footer__inner {
@@ -28,23 +29,30 @@
   }
 }
 
-.footer__nav {
+// footer-nav
+
+.footer-nav__wrap {
+  background-color: $blue;
+}
+
+.footer-nav {
   height: 9.4rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer__nav-list {
+.footer-nav__list {
   display: flex;
   justify-content: space-between;
 }
 
-.footer__nav-item + .footer__nav-item {
+.footer-nav__item + .footer-nav__item {
   margin-left: 4.5rem;
 }
 
-.footer__nav-link {
+.footer-nav__link {
   font-size: 2.2rem;
   color: $white;
   font-weight: 900;
