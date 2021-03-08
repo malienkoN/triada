@@ -25,7 +25,13 @@
     position: absolute;
     bottom: -25%;
     right: -20%;
-    z-index: 1;
+    z-index: 0;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 }
 
@@ -56,4 +62,150 @@
   font-size: 2.2rem;
   color: $white;
   font-weight: 900;
+}
+
+@media (max-width: 1499px) {
+  .footer__left {
+
+    &:after {
+      background-size: 80%;
+      bottom: -35%;
+      right: -25%;
+    }
+  }
+
+  .footer-nav__link {
+    font-size: 2rem;
+  }
+
+  .footer-nav {
+    height: 9rem;
+  }
+}
+
+@media (max-width: 1299px) {
+  .footer__left {
+
+    &:after {
+      background-size: 60%;
+      bottom: -40%;
+      right: -35%;
+    }
+  }
+
+  .footer-nav__link {
+    font-size: 1.9rem;
+  }
+
+  .footer-nav__item + .footer-nav__item {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .footer-nav__item + .footer-nav__item {
+    margin-left: 3.5rem;
+  }
+
+  .footer__left {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 1099px) {
+  .footer-nav__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .footer-nav__item + .footer-nav__item {
+    margin: 0;
+  }
+
+  .footer-nav {
+    padding: 3rem 0 3rem 1rem;
+    height: auto;
+
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .footer__left {
+
+    &:after {
+      background-size: 100%;
+      bottom: -25%;
+      right: -20%;
+    }
+  }
+
+  .footer-nav__link {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .footer__left {
+
+    &:after {
+      background-size: 80%;
+      bottom: -35%;
+      right: -25%;
+    }
+  }
+
+  .footer-nav__list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    grid-row-gap: 2rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .footer__left {
+
+    &:after {
+      background-size: 60%;
+      bottom: -40%;
+      right: -35%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-nav__link {
+    font-size: 1.6rem;
+  }
+
+  .footer__left:after {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .footer__left {
+    padding-left: 0;
+  }
+
+  .footer-nav {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 439px) {
+  .footer-nav__list {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+  }
+
+  .footer-nav {
+    padding: 2rem 0;
+  }
 }

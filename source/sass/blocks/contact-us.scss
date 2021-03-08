@@ -1,4 +1,6 @@
 .contact-us {
+  position: relative;
+  z-index: 1;
   color: $white;
 
   svg {
@@ -90,5 +92,79 @@
 
   &:hover {
     background-color: darken($white, 5%);
+  }
+}
+
+@media (max-width: 1499px) {
+  .contact-us a {
+    font-size: 1.8rem;
+  }
+
+  .contact-us__address {
+    font-size: 1.8rem;
+    max-width: 30rem;
+  }
+
+  .contact-us__title {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .contact-us a {
+    font-size: 1.7rem;
+  }
+
+  .contact-us__address {
+    font-size: 1.7rem;
+  }
+
+  .contact-us__title {
+    font-size: 3rem;
+  }
+
+  .contact-us__subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-us a {
+    font-size: 1.6rem;
+  }
+
+  .contact-us__address {
+    font-size: 1.6rem;
+  }
+
+  .contact-us__title {
+    font-size: 2.8rem;
+  }
+
+  .contact-us__subtitle {
+    font-size: 1.4rem;
+  }
+
+  .contact-us__link {
+    padding: 1.4rem 3rem;
+  }
+}
+
+@media (max-width: 449px) {
+  .contact-us__phone-lists {
+    grid-template-columns: max-content;
+    grid-row-gap: 2rem;
+
+    li {
+      margin-bottom: 1rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .contact-us__title {
+    font-size: 2.5rem;
   }
 }
