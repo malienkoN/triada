@@ -1,0 +1,173 @@
+.pipe-table__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px 20px;
+  overflow: auto;
+}
+
+@media screen and (max-width:1100px) {
+  .pipe-table__container {
+    width: auto;
+    margin: 20px;
+    padding: 50px 0 0;
+  }
+}
+
+.pipe-table__container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.pipe-grid,
+.pipe-table {
+  border: 1px solid #000;
+}
+
+.pipe-table {
+  margin-bottom: 20px;
+  min-width: 850px;
+}
+
+.pipe-table__body,
+.pipe-table__cell,
+.pipe-table__head,
+.pipe-table__row {
+  border-style: solid;
+  border-color: #000;
+}
+
+.pipe-table__head {
+  flex-basis: 100%;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.pipe-table__body {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.pipe-table__text-center {
+  justify-content: center;
+}
+
+.pipe-table__text-right {
+  justify-content: flex-end;
+}
+
+.pipe-table__body-textual {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+}
+
+.pipe-table__row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.pipe-table__cell {
+  display: flex;
+  flex-basis: 33.33%;
+  align-items: center;
+  padding: 5px;
+  border-top: 1px solid #000;
+}
+
+.pipe-table__cell {
+  border-right: 1px solid #000;
+}
+
+.pipe-table__img-container {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  border-top: 1px solid #000;
+}
+
+.pipe-table__img-container img {
+  width: 300px;
+}
+
+.pipe-grid {
+  border: 1px solid #000;
+  min-width: 850px;
+  margin-bottom: 20px;
+}
+
+.pipe-grid__head {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.pipe-grid__head-number-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-basis: 10%;
+  border-right: 1px solid #000;
+}
+
+.pipe-grid__wall-sizes {
+  flex-basis: 90%;
+}
+
+.wall-sizes__title {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.wall-sizes__values {
+  display: flex;
+}
+
+.wall-sizes__value {
+  flex-basis: 7.7%;
+  padding: 5px;
+  text-align: center;
+}
+
+.wall-sizes__value:not(:last-child) {
+  border-right: 1px solid #000;
+}
+
+.pipe-grid__body-row {
+  display: flex;
+}
+
+.pipe-grid__body-row:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.pipe-grid__body-size {
+  flex-basis: 10%;
+  text-align: center;
+  border-right: 1px solid #000;
+}
+
+.pipe-grid__body-cell {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 6.9%;
+  align-items: center;
+  padding: 5px;
+}
+
+.pipe-grid__body-cell:not(:last-child) {
+  border-right: 1px solid #000;
+}
+
+.pipe-grid__body-cell-marker {
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 50%;
+}
+
+@media screen and (max-width:1100px) {
+  .pipe-grid__body-cell-marker {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -80,6 +80,14 @@ $(document).ready(function () {
         $('body').addClass('lock');
     });
 
+    // price
+    $('#price-trigger').click(function (event) {
+        event.preventDefault();
+
+        $('#price').fadeIn();
+        $('body').addClass('lock');
+    });
+
     $('.modal-close').click(function (event) {
         event.preventDefault();
 

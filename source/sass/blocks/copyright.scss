@@ -17,6 +17,12 @@
   font-weight: 400;
 }
 
+@media (max-width: 575px) {
+  .copyright {
+    margin-bottom: 4.4rem;
+  }
+}
+
 @media (max-width: 529px) {
   .copyright {
     height: auto;

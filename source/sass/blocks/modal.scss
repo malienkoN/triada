@@ -22,6 +22,11 @@
   background-color: $white;
 
   position: relative;
+
+  &--price {
+    width: auto;
+    margin: 0 auto;
+  }
 }
 
 .modal-close {
@@ -61,6 +66,11 @@
 @media (max-width: 1199px) {
   .modal {
     margin: 3rem auto;
+
+    &--price {
+      width: auto;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -68,5 +78,10 @@
   .modal {
     width: auto;
     margin: 2rem 1rem;
+
+    &--price {
+      width: auto;
+      margin: 0 auto;
+    }
   }
 }
