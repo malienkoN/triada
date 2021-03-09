@@ -13,6 +13,14 @@
   @media (max-width: 1599px) {
     background-size: 80%;
   }
+
+  @media (max-width: 1399px) {
+    background-size: 60%;
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
 }
 
 @mixin rectangle {
@@ -29,5 +37,13 @@
 
   @media (max-width: 1599px) {
     background-size: 80%;
+  }
+
+  @media (max-width: 1399px) {
+    background-size: 60%;
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
   }
 }
