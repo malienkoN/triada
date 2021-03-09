@@ -24,7 +24,7 @@
   position: relative;
 
   &--price {
-    width: auto;
+    width: 145rem;
     margin: 0 auto;
   }
 }
@@ -60,6 +60,12 @@
   }
   &:after {
     transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 1499px) {
+  .modal--price {
+    width: auto;
   }
 }
 
