@@ -158,6 +158,7 @@
   .search-dropdown__input {
     padding: 0 2.5rem .5rem 0;
     color: $blue;
+    width: auto;
 
     &::placeholder {
       color: $blue;
@@ -167,7 +168,8 @@
   .search-dropdown__btn {
     width: 2rem;
     height: 2rem;
-    top: 0;
+    top: 10%;
+    right: 1%;
 
     svg {
       fill: $blue;
@@ -180,6 +182,7 @@
 @media (max-width: 575px) {
   .catalog-dropdown {
     width: 100%;
+    height: 100%;
     overflow-y: auto;
     position: static;
   }
@@ -220,8 +223,7 @@
 //  }
 //}
 
-@media (device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+@media (device-width: 568px) {
   .catalog-dropdown {
     height: 23rem;
   }
