@@ -34,6 +34,10 @@
     padding: 7rem 2rem 5rem;
     z-index: 99;
     opacity: 1;
+
+    &--search {
+      padding: 8rem 4rem 6rem;
+    }
   }
 
   .popup-close {

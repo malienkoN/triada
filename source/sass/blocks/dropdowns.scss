@@ -149,6 +149,7 @@
 
   .search-dropdown {
     position: relative;
+    width: 100%;
 
     &:after {
       background: $blue;
@@ -156,9 +157,9 @@
   }
 
   .search-dropdown__input {
-    padding: 0 2.5rem .5rem 0;
+    padding: 0 2.8rem .5rem 0;
     color: $blue;
-    width: auto;
+    width: 100%;
 
     &::placeholder {
       color: $blue;
@@ -223,7 +224,7 @@
 //  }
 //}
 
-@media (device-width: 568px) {
+@media only screen and (device-width: 568px) {
   .catalog-dropdown {
     height: 23rem;
   }
