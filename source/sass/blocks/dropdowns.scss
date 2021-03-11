@@ -157,7 +157,7 @@
   }
 
   .search-dropdown__input {
-    padding: 0 2.8rem .5rem 0;
+    padding: 0 3rem .5rem 0;
     color: $blue;
     width: 100%;
 
@@ -186,46 +186,5 @@
     height: 100%;
     overflow-y: auto;
     position: static;
-  }
-}
-
-//@media only screen
-//and (min-device-width : 320px)
-//and (max-device-width : 568px)
-//and (orientation : landscape) {
-//  .catalog-dropdown {
-//    height: 23rem;
-//  }
-//}
-
-/* iPhone 5 Retina regardless of IOS version */
-//@media (device-height : 568px)
-//and (device-width : 320px)
-//and (-webkit-min-device-pixel-ratio: 2)
-//and (orientation: landscape) {
-//  .catalog-dropdown {
-//    height: 23rem;
-//  }
-//}
-
-//@media (device-height : 568px)
-//and (device-width : 320px)
-//and (orientation: landscape) {
-//  .catalog-dropdown {
-//    height: 23rem;
-//  }
-//}
-
-//@media only screen and (device-width: 320px)
-//and (device-height: 568px)
-//and (-webkit-device-pixel-ratio: 2) {
-//  .catalog-dropdown {
-//    height: 23rem;
-//  }
-//}
-
-@media only screen and (device-width: 568px) {
-  .catalog-dropdown {
-    height: 23rem;
   }
 }
