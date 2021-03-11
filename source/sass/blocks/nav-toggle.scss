@@ -42,6 +42,15 @@
   }
 }
 
+.nav-toggle__item--blue {
+  background-color: $blue;
+
+  &:before,
+  &:after {
+    background-color: $blue;
+  }
+}
+
 .nav-toggle.active .nav-toggle__item {
   background: none;
 }

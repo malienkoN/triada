@@ -87,6 +87,13 @@
   }
 }
 
+.search-dropdown--blue {
+
+  &:after {
+    background: $blue;
+  }
+}
+
 .search-dropdown__btn {
   position: absolute;
   right: 0;
@@ -113,6 +120,14 @@
 
   &::placeholder {
     color: $white;
+  }
+
+  &--blue {
+    color: $blue;
+
+    &::placeholder {
+      color: $blue;
+    }
   }
 }
 

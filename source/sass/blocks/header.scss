@@ -13,6 +13,14 @@
   }
 }
 
+.header--blue {
+  color: $blue;
+
+  svg {
+    fill: $blue;
+  }
+}
+
 .header__inner {
   display: flex;
   align-items: center;
