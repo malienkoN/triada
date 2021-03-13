@@ -139,6 +139,16 @@ $(document).ready(function () {
             }
         }
     });
+
+    //photo-gallery
+    $('.slide-three').owlCarousel({
+        loop: true,
+        items: 4,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: ["<img src='../img/prev-arrow.svg' alt=''>", "<img src='../img/next-arrow.svg' alt=''>"],
+    });
 });
 
 /* Smooth scroll to the anchors */

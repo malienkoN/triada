@@ -12,7 +12,7 @@
         <div class="header__inner">
             <div class="header__left">
                 <a href="index.html">
-                    <img class="header__logo img" src="img/logo.png" width="129" height="129" alt="Триада">
+                    <img class="header__logo header__logo--small img" src="img/logo.png" width="129" height="129" alt="Триада">
                 </a>
 
                 <div class="header__catalog-wrapper">
@@ -192,7 +192,7 @@
                         <div class="popup popup--search">
                             <button class="popup-close" type="button" aria-label="Закрыть"></button>
                             <!-- search-dropdown -->
-                            <form class="search-dropdown search-dropdown--blue" action="/" method="get">
+                            <form class="search-dropdown search-dropdown--blue" action="/" method="post">
                                 <input class="search-dropdown__input search-dropdown__input--blue" type="text" placeholder="Поиск по сайту…" autocomplete="off">
                                 <button class="search-dropdown__btn btn" type="submit">
                                     <svg  width="25" height="25" viewBox="0 0 25 25">
@@ -245,30 +245,100 @@
 
 <main class="main">
 
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item" aria-current="page">О нас</li>
+        </ol>
+    </nav>
+</div>
 
-<section class="section section--about" id="about">
+
+<section class="section section--about section--about-another">
     <div class="container">
         <h2 class="title title--main">
             Триада
             <span class="title__sub title__sub--main">О нас</span>
         </h2>
 
-        <div class="about">
+        <div class="about about--mod">
             <div class="about__item">
                 <h4 class="about__title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h4>
 
-                <p class="about__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                </p>
-
-                <a class="about__link" href="#">Подробнее о компании <span>+</span></a>
+                <div class="about__text-overflow">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="about__item">
-                <div class="about__item-img-wrapper">
+                <div class="about__item-img-wrapper about__item-img-wrapper--mod">
                     <span>Работаем с</span>
                     <img class="img" src="img/about-img.png" alt="">
                     <span>Года</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--question">
+    <div class="container">
+        <div class="question">
+            <form class="question__form" action="/" method="post">
+                <h3 class="question__form-title">Задать вопрос</h3>
+
+                <div class="question__form-inner">
+                    <input class="question__form-input" type="text" name="name" placeholder="Имя">
+                    <input class="question__form-input" type="email" name="name" placeholder="E-mail">
+                    <input class="question__form-input" type="tel" name="tel" placeholder="+38 (__) ___-__-__ ">
+                    <textarea class="question__form-textarea" placeholder="Сообщение…"></textarea>
+                </div>
+
+                <button class="question__form-btn btn btn--classic" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="section section--photo-gallery">
+    <div class="container">
+        <h2 class="title title--main">
+            Фотогалерея
+            <span class="title__sub title__sub--main">Фото</span>
+        </h2>
+
+        <div class="photo-gallery">
+            <div class="owl-carousel slide-three">
+                <div class="item">
+                    <img src="img/photo-gallery/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/4.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="img/photo-gallery/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/photo-gallery/4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -433,7 +503,7 @@
         <div class="callback">
             <h3 class="callback__title">Заказать обратный звонок</h3>
 
-            <form class="callback__form" action="/" method="get">
+            <form class="callback__form" action="/" method="post">
 
                 <div class="callback__form-inner">
                     <input class="callback__form-input" type="text" name="name" placeholder="Имя">

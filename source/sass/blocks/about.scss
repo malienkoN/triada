@@ -3,6 +3,11 @@
   display: grid;
   grid-template-columns: 60rem 1fr;
   grid-column-gap: 6.5rem;
+
+  &--mod {
+    grid-column-gap: 3rem;
+    grid-template-columns: 63rem 1fr;
+  }
 }
 
 .about__item-img-wrapper {
@@ -25,6 +30,10 @@
     color: $blue;
     right: 6%;
     top: -2%;
+  }
+
+  &--mod {
+    margin: 0;
   }
 }
 
@@ -70,6 +79,29 @@
   }
 }
 
+.about__text-overflow {
+  height: 32rem;
+  overflow-y: auto;
+}
+
+.about__text-overflow::-webkit-scrollbar {
+  background-color: #f0f0f0;
+  width: 1rem;
+}
+
+.about__text-overflow::-webkit-scrollbar-thumb {
+  background-color: $blue;
+}
+
+.about__text-overflow div {
+  padding: .5rem 1.5rem 0  0;
+  font-size: 1.6rem;
+}
+
+.about__text-overflow p {
+  margin: 0 0 2rem 0;
+}
+
 @media (max-width: 1639px) {
   .about__item-img-wrapper span {
     font-size: 3rem;
@@ -88,6 +120,11 @@
   .about {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
+
+    &--mod {
+      grid-column-gap: 3rem;
+      grid-template-columns: 55rem 1fr;
+    }
   }
 }
 
@@ -122,11 +159,19 @@
   .about__item-img-wrapper span {
     font-size: 2.5rem;
   }
+
+  .about__text-overflow::-webkit-scrollbar {
+    width: .5rem;
+  }
 }
 
 @media (max-width: 679px) {
   .about__item-img-wrapper span {
     font-size: 2rem;
+  }
+
+  .about__text-overflow div {
+    padding: .5rem 1rem 0  0;
   }
 }
 

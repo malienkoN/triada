@@ -34,6 +34,11 @@
 
 .header__logo {
   margin-right: 8rem;
+
+  &--small {
+    width: 11rem;
+    height: 11rem;
+  }
 }
 
 .header__catalog-wrapper {
@@ -153,8 +158,8 @@
 
 @media (max-width: 1359px) {
   .header__logo {
-    width: 11.1rem;
-    height: 11.1rem;
+    width: 11rem;
+    height: 11rem;
   }
 
   .header__catalog-btn span {
