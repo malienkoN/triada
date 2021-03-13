@@ -34,3 +34,15 @@
     left: -2%;
   }
 }
+
+@media (max-width: 1199px) {
+  .photo-gallery {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .photo-gallery {
+    padding: 0;
+  }
+}

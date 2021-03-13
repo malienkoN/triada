@@ -143,11 +143,31 @@ $(document).ready(function () {
     //photo-gallery
     $('.slide-three').owlCarousel({
         loop: true,
-        items: 4,
         margin: 10,
-        nav: true,
         dots: false,
         navText: ["<img src='../img/prev-arrow.svg' alt=''>", "<img src='../img/next-arrow.svg' alt=''>"],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+
+            469: {
+                items: 2,
+            },
+
+            767: {
+              items: 3,
+            },
+
+            991: {
+                nav: true,
+            },
+
+            1199: {
+                items: 4,
+            }
+        }
     });
 });
 

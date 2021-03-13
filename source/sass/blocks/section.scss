@@ -193,6 +193,10 @@
       top: 20%;
     }
   }
+
+  .section--photo-gallery {
+    padding: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -208,5 +212,13 @@
 @media (max-width: 767px) {
   .section--services:after {
     display: none;
+  }
+
+  .section--photo-gallery {
+    margin-bottom: 15rem;
+  }
+
+  .section--question {
+    margin-bottom: 15rem;
   }
 }
