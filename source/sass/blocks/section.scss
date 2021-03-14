@@ -134,6 +134,23 @@
   }
 }
 
+.section--our-news {
+  margin-bottom: 8.6rem;
+  position: relative;
+
+  &:before {
+    @include circle;
+    top: 30%;
+    left: 0;
+  }
+
+  &:after {
+    @include rectangle;
+    top: 10%;
+    right: 0;
+  }
+}
+
 @media (max-width: 1599px) {
   .section--works {
 
@@ -197,6 +214,19 @@
       right: -5%;
     }
   }
+
+  .section--our-news {
+
+    &:before {
+      top: 25%;
+      left: -5%;
+    }
+
+    &:after {
+      top: 5%;
+      right: -5%;
+    }
+  }
 }
 
 @media (max-width: 1499px) {
@@ -240,6 +270,19 @@
 
     &:after {
       top: 1%;
+      right: -15%;
+    }
+  }
+
+  .section--our-news {
+
+    &:before {
+      top: 20%;
+      left: -15%;
+    }
+
+    &:after {
+      top: -4%;
       right: -15%;
     }
   }
