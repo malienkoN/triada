@@ -72,6 +72,13 @@ $(document).ready(function () {
         $('body').addClass('lock');
     });
 
+    $('.our-service__btn').click(function (event) {
+       event.preventDefault();
+
+       $('#callback').fadeIn();
+       $('body').addClass('lock');
+    });
+
     // cart
     $('#cart-trigger').click(function (event) {
         event.preventDefault();

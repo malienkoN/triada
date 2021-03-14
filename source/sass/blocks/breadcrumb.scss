@@ -24,12 +24,17 @@
 }
 
 .breadcrumb-item {
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
 
   font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
-  color: $blue;
+  color: #6a6a6a;
+
+  a {
+    color: $blue;
+  }
 }
 
 .breadcrumb-item + .breadcrumb-item::before {

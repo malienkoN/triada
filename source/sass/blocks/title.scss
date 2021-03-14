@@ -83,16 +83,12 @@
     font-size: 20rem;
   }
 
-  .title--main {
-    font-size: 3.5rem;
-  }
-
   .title {
     font-size: 3rem;
   }
 
   .title__border {
-    padding: 0;
+    padding: 0 0 1px 0;
 
     &:after {
       height: 3px;
@@ -109,5 +105,17 @@
 @media (max-width: 767px) {
   .title__sub {
     display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 369px) {
+  .title {
+    font-size: 2.5rem;
   }
 }
