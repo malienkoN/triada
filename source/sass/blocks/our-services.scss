@@ -4,7 +4,6 @@
 
 .our-services__text {
   margin-bottom: 5rem;
-  font-size: 1.9rem;
 }
 
 .our-services__list {
@@ -99,6 +98,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .our-services__text-overflow div {
+    font-size: 1.8rem;
+  }
+}
+
 @media (max-width: 649px) {
   .our-services__list-item a {
     display: block;
@@ -135,7 +140,7 @@
   }
 
   .our-services__text-overflow div {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: .5rem 1rem 0  0;
   }
 }
