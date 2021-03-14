@@ -1,0 +1,1832 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header header--blue">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <a href="index.html">
+                    <img class="header__logo header__logo--small img" src="img/logo.png" width="129" height="129" alt="Триада">
+                </a>
+
+                <div class="header__catalog-wrapper">
+                    <button class="header__catalog-btn btn" type="button" aria-label="Каталог">
+                        <svg width="23" height="23" viewBox="0 0 23 23">
+                            <use xlink:href="img/sprite.svg#icon-catalog"></use>
+                        </svg>
+                        <span>Каталог продукции</span>
+                    </button>
+                    <ul class="catalog-dropdown">
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-1"></use>
+                                </svg>
+                                Трубы круглые
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="img/sprite.svg#icon-2"></use>
+                                </svg>
+                                Трубы квадратные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="22" height="22" viewBox="0 0 22 22">
+                                    <use xlink:href="img/sprite.svg#icon-3"></use>
+                                </svg>
+                                Трубы прямоугольные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="11" height="19" viewBox="0 0 11 19">
+                                    <use xlink:href="img/sprite.svg#icon-4"></use>
+                                </svg>
+                                Трубы плоско (-овальные)
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="23" height="20" viewBox="0 0 23 20">
+                                    <use xlink:href="img/sprite.svg#icon-5"></use>
+                                </svg>
+                                Трубы треугольные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-1"></use>
+                                </svg>
+                                Трубы ВГП
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="25" height="22" viewBox="0 0 25 22">
+                                    <use xlink:href="img/sprite.svg#icon-6"></use>
+                                </svg>
+                                Листы холоднокатаные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="25" height="22" viewBox="0 0 25 22">
+                                    <use xlink:href="img/sprite.svg#icon-6"></use>
+                                </svg>
+                                Листы горячекатаные
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-7"></use>
+                                </svg>
+                                Круг
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="19" height="19" viewBox="0 0 19 19">
+                                    <use xlink:href="img/sprite.svg#icon-8"></use>
+                                </svg>
+                                Уголок
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg  width="15" height="25" viewBox="0 0 15 25">
+                                    <use xlink:href="img/sprite.svg#icon-9"></use>
+                                </svg>
+                                Полоса
+                            </a>
+                        </li>
+                        <li>
+                            <a class="catalog-dropdown__link" href="#">
+                                <svg class="catalog-dropdown__icon-rotate"  width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="img/sprite.svg#icon-10"></use>
+                                </svg>
+                                Квадрат
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Справочная информация</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Оплата-Доставка</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <ul class="header__action">
+                <li class="header__action-item">
+                    <a class="header__action-link" id="tel-dropdown" href="tel:380974343543">
+                        <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                        </svg>
+                        <span>+38 (097) 43 43 543</span>
+                        <svg class="header__action-icon__dropdown"  width="20" height="20" viewBox="0 0 20 20">
+                            <use xlink:href="img/sprite.svg#icon-dropdown"></use>
+                        </svg>
+                    </a>
+                    <!-- popup -->
+                    <div class="popup-fade">
+                        <div class="popup">
+                            <button class="popup-close" type="button" aria-label="Закрыть"></button>
+                            <!-- tel-dropdown -->
+                            <ul class="tel-dropdown">
+                                <li class="tel-dropdown__item">
+                                    <a class="tel-dropdown__link" href="tel:380974343543">
+                                        <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        +38 (097) 43 43 543
+                                    </a>
+                                </li>
+                                <li class="tel-dropdown__item">
+                                    <a class="tel-dropdown__link" href="tel:380974343543">
+                                        <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        +38 (097) 43 43 543
+                                    </a>
+                                </li>
+                                <li class="tel-dropdown__item">
+                                    <a class="tel-dropdown__link" href="tel:380974343543">
+                                        <svg class="header__action-icon__phone"  width="20" height="20" viewBox="0 0 20 20">
+                                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        +38 (097) 43 43 543
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="header__action-item">
+                    <a class="header__action-link" id="search-dropdown" href="#">
+                        <svg class="header__action-icon__search" width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                        <span>Поиск</span>
+                    </a>
+                    <!-- popup -->
+                    <div class="popup-fade">
+                        <div class="popup popup--search">
+                            <button class="popup-close" type="button" aria-label="Закрыть"></button>
+                            <!-- search-dropdown -->
+                            <form class="search-dropdown search-dropdown--blue" action="/" method="post">
+                                <input class="search-dropdown__input search-dropdown__input--blue" type="text" placeholder="Поиск по сайту…" autocomplete="off">
+                                <button class="search-dropdown__btn btn" type="submit">
+                                    <svg  width="25" height="25" viewBox="0 0 25 25">
+                                        <use xlink:href="img/sprite.svg#icon-search-dropdown"></use>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="header__action-item">
+                    <button class="nav-toggle" id="nav__toggle" type="button" aria-label="Меню">
+                        <span class="nav-toggle__item nav-toggle__item--blue">Меню</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="side">
+    <ul class="side__list">
+        <li class="side__list-item">
+            <a class="side__list-link" id="cart-trigger" href="#">
+                <svg class="side__icon-cart" width="30" height="30" viewBox="0 0 33 33">
+                    <use xlink:href="img/sprite.svg#icon-cart"></use>
+                </svg>
+                <span class="side__list-cart-number">1</span>
+            </a>
+        </li>
+        <li class="side__list-item">
+            <a class="side__list-link" id="callback-trigger" href="#">
+                <svg class="side__icon-phone"  width="25" height="25" viewBox="0 0 20 20">
+                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="side__list-item price">
+            <a class="side__list-link" id="price-trigger" href="#">
+                <svg class="side__icon-price"  width="27" height="36" viewBox="0 0 27 36">
+                    <use xlink:href="img/sprite.svg#icon-file"></use>
+                </svg>
+                <span>Подробный прайс</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<main class="main">
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Блог</a></li>
+            <li class="breadcrumb-item" aria-current="page">Стали углеродистые нелегированные</li>
+        </ol>
+    </nav>
+</div>
+
+<section class="section">
+    <div class="container">
+        <h2 class="title title--main title--margin">
+            <span class="title__border">Стали углеродистые нелегированные</span>
+            <span class="title__sub title__sub--main">Блог</span>
+        </h2>
+
+        <div class="news-page">
+            <div class="news-page__intro">
+                <time datetime="2021-03-21 19:00">
+                    <svg width="16" height="19" viewBox="0 0 16 19">
+                        <use xlink:href="img/sprite.svg#icon-calendar"></use>
+                    </svg>
+                    20.03.21
+                </time>
+            </div>
+
+            <div class="news-page__text text-general">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+            </div>
+
+            <div class="news-page__share">
+                <h4 class="news-page__share-title">Поделиться</h4>
+
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_skype"></a>
+                    <a class="a2a_button_telegram"></a>
+                    <a class="a2a_button_vk"></a>
+                    <a class="a2a_button_viber"></a>
+                    <a class="a2a_button_facebook_messenger"></a>
+                    <a class="a2a_button_whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <div class="contact-us">
+                    <h4 class="contact-us__subtitle first">Свяжитесь с нами</h4>
+                    <h3 class="contact-us__title">Контактная информация</h3>
+
+                    <h4 class="contact-us__subtitle">Главный офис компании &laquo;ТРИАДА&raquo;</h4>
+                    <address class="contact-us__address">
+                        <svg width="14" height="20" viewBox="0 0 14 20">
+                            <use xlink:href="img/sprite.svg#icon-contact-us-pin"></use>
+                        </svg>
+                        Днепр, Днепропетровская область
+                        ул. Любарского, 126, инд.&nbsp;49098
+                    </address>
+
+                    <h4 class="contact-us__subtitle">Пн-Пт с&nbsp;08:00 до&nbsp;18:00</h4>
+                    <div class="contact-us__phone-lists">
+                        <ul>
+                            <li>
+                                <a href="tel:380504343543">
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-phone"></use>
+                                    </svg>
+                                    +38(050) 434-35-43
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:380734343543">
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-phone"></use>
+                                    </svg>
+                                    +38(073) 434-35-43
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:380974343543">
+                                    <svg width="18" height="19" viewBox="0 0 18 19">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-viber"></use>
+                                    </svg>
+                                    +38(097) 434-35-43
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <a href="tel:380968876434">
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-phone"></use>
+                                    </svg>
+                                    +38096887-64-34
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:380667753696">
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-phone"></use>
+                                    </svg>
+                                    +38066775-36-96
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:380667753696">
+                                    <svg width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/sprite.svg#icon-contact-us-phone"></use>
+                                    </svg>
+                                    +38066775-36-96
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h4 class="contact-us__subtitle">Всегда на связи</h4>
+                    <ul class="contact-us__mail-list">
+                        <li>
+                            <a href="mailto:info@triada.dp.ua">
+                                <svg width="15" height="12" viewBox="0 0 15 12">
+                                    <use xlink:href="img/sprite.svg#icon-contact-us-mail"></use>
+                                </svg>
+                                info@triada.dp.ua
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sale@triada.dp.ua">
+                                <svg width="15" height="12" viewBox="0 0 15 12">
+                                    <use xlink:href="img/sprite.svg#icon-contact-us-mail"></use>
+                                </svg>
+                                sale@triada.dp.ua
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="contact-us__link btn" href="#">Отправить сообщение</a>
+                </div>
+            </div><!-- /.footer__left -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84539.85016613518!2d34.992650164411145!3d48.53571693074332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x52ff7472f5660736!2z0KLRgNC40LDQtNCwLCDQnNC10YLQsNC70LvQvtCx0LDQt9Cw!5e0!3m2!1sru!2sua!4v1615057233573!5m2!1sru!2sua" allowfullscreen=""></iframe>
+            </div>
+        </div><!-- /.footer__inner -->
+    </div>
+</footer>
+
+<div class="footer-nav__wrap">
+    <div class="container">
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">О нас</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Каталог продукции</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Услуги</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Справочная информация</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Блог</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Оплата-Доставка</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="copyright">
+    <div class="container">
+        <div class="copyright__inner">
+            <p class="copyright__text">
+                &copy;&nbsp;2021 triada.dp.ua. Все права защищены
+            </p>
+
+            <a class="copyright__link" href="https://web-art.dp.ua/">Разработано в&nbsp;web.art</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal -->
+<div class="modal-fade" id="callback">
+    <div class="modal">
+        <button class="modal-close" type="button" aria-label="Закрыть"></button>
+        <!-- callback -->
+        <div class="callback">
+            <h3 class="callback__title">Заказать обратный звонок</h3>
+
+            <form class="callback__form" action="/" method="post">
+
+                <div class="callback__form-inner">
+                    <input class="callback__form-input" type="text" name="name" placeholder="Имя">
+                    <input class="callback__form-input" type="tel" name="tel" placeholder="+38 (__) ___-__-__ ">
+                </div>
+
+                <button class="callback__btn btn btn--classic" type="submit">Заказать звонок</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal-fade" id="cart">
+    <div class="modal">
+        <button class="modal-close" type="button" aria-label="Закрыть"></button>
+        <!-- cart -->
+        <div class="cart">
+            <h3 class="cart__title">Корзина</h3>
+
+            <div class="cart__items-overflow">
+                <div class="cart__item">
+                    <div class="cart__item-col">
+                        <a href="#">
+                            <img src="img/cart-img.jpg" alt="">
+                        </a>
+
+                        <a class="cart__item-title" href="#">Название товара</a>
+                    </div>
+                    <div class="cart__item-col">
+                        <div class="cart__item-price">150 грн</div>
+                        <button class="cart__item-close" type="button" aria-label="Убрать товар из корзины"></button>
+                    </div>
+                </div>
+
+                <div class="cart__item">
+                    <div class="cart__item-col">
+                        <a href="#">
+                            <img src="img/cart-img.jpg" alt="">
+                        </a>
+
+                        <a class="cart__item-title" href="#">Название товара</a>
+                    </div>
+                    <div class="cart__item-col">
+                        <div class="cart__item-price">150 грн</div>
+                        <button class="cart__item-close" type="button" aria-label="Убрать товар из корзины"></button>
+                    </div>
+                </div>
+
+                <div class="cart__item">
+                    <div class="cart__item-col">
+                        <a href="#">
+                            <img src="img/cart-img.jpg" alt="">
+                        </a>
+
+                        <a class="cart__item-title" href="#">Название товара</a>
+                    </div>
+                    <div class="cart__item-col">
+                        <div class="cart__item-price">150 грн</div>
+                        <button class="cart__item-close" type="button" aria-label="Убрать товар из корзины"></button>
+                    </div>
+                </div>
+
+                <div class="cart__item">
+                    <div class="cart__item-col">
+                        <a href="#">
+                            <img src="img/cart-img.jpg" alt="">
+                        </a>
+
+                        <a class="cart__item-title" href="#">Название товара</a>
+                    </div>
+                    <div class="cart__item-col">
+                        <div class="cart__item-price">150 грн</div>
+                        <button class="cart__item-close" type="button" aria-label="Убрать товар из корзины"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart__total-price">На сумму: <span>450</span> грн</div>
+
+            <a class="cart__btn btn btn--classic" href="#">Оформить заказ</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal-fade" id="price">
+    <div class="modal modal--price">
+        <button class="modal-close" type="button" aria-label="Закрыть"></button>
+        <!-- pipe-table -->
+        <div class="pipe-table__container">
+            <div class="pipe-table">
+                <div class="pipe-table__head">
+                    Электросварные круглые трубы
+                </div>
+                <div class="pipe-table__body">
+                    <div class="pipe-table__body-textual">
+                        <div class="pipe-table__row">
+                            <div class="pipe-table__cell">
+                                марки стали
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                08 КП/ПС -1-3 ПС/ DC01
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                ГОСТ
+                            </div>
+                        </div>
+                        <div class="pipe-table__row">
+                            <div class="pipe-table__cell">
+                                номинальный наружный диаметр, мм.
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                10,0 - 60,0
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                10704-91
+                            </div>
+                        </div>
+                        <div class="pipe-table__row">
+                            <div class="pipe-table__cell">
+                                толщина стенки, мм.
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                0,5-2,0
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                ГОСТ
+                            </div>
+                        </div>
+                        <div class="pipe-table__row">
+                            <div class="pipe-table__cell">
+                                длина трубы, м.
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                6,0-12,0
+                            </div>
+                            <div class="pipe-table__cell pipe-table__text-center">
+                                10705-80
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-table__img-container pipe-table__text-right">
+                        <a href="#" class="pipe-table__img-link">
+                            <img class="pipe-table__img" src="img/pipe-table-img.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pipe-grid">
+                <div class="pipe-grid__head">
+                    <div class="pipe-grid__head-number-text">
+                        внешний диаметр, мм.
+                    </div>
+                    <div class="pipe-grid__wall-sizes wall-sizes">
+                        <div class="wall-sizes__title pipe-table__text-center">
+                            толщина стенки, мм.
+                        </div>
+                        <div class="wall-sizes__values">
+                            <div class="wall-sizes__value">0,5</div>
+                            <div class="wall-sizes__value">0,6</div>
+                            <div class="wall-sizes__value">0,7</div>
+                            <div class="wall-sizes__value">0,8</div>
+                            <div class="wall-sizes__value">0,9</div>
+                            <div class="wall-sizes__value">1,0</div>
+                            <div class="wall-sizes__value">1,1</div>
+                            <div class="wall-sizes__value">1,2</div>
+                            <div class="wall-sizes__value">1,3</div>
+                            <div class="wall-sizes__value">1,4</div>
+                            <div class="wall-sizes__value">1,5</div>
+                            <div class="wall-sizes__value">1,8</div>
+                            <div class="wall-sizes__value">2,0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pipe-grid__body">
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            10
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            12
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            14
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            16
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            18
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            19
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            20
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            21,3
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            10
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            25
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            27
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            30
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            32
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            36
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            38
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            40
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            42
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            45
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            48
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            50
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            51
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            57
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pipe-grid__body-row">
+                        <div class="pipe-grid__body-size">
+                            60
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell">
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                        <div class="pipe-grid__body-cell pipe-table__text-center">
+                            <div class="pipe-grid__body-cell-marker">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/icons-page.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
