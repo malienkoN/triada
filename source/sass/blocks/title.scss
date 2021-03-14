@@ -13,6 +13,35 @@
   text-align: left;
 }
 
+.title--margin {
+  margin-left: 0;
+
+  @media (max-width: 1899px) {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 1199px) {
+    margin-left: 0;
+  }
+}
+
+.title__border {
+  padding: 0 0 .3rem 0;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 70%;
+    height: 6px;
+    background-color: #bf334d;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
 .title__sub {
   font-family: 'Futura PT Extra', sans-serif;
   font-weight: 800;
@@ -60,6 +89,14 @@
 
   .title {
     font-size: 3rem;
+  }
+
+  .title__border {
+    padding: 0;
+
+    &:after {
+      height: 3px;
+    }
   }
 }
 

@@ -34,7 +34,7 @@
   padding: 0;
 
   position: fixed;
-  top: 25%;
+  top: 20%;
   left: 0;
   z-index: 3;
 
@@ -112,11 +112,9 @@
   .side__list-item.price a {
     font-size: 1.2rem;
   }
-}
 
-@media (max-width: 991px) {
   .side__list-item.price {
-    top: 11rem;
+    top: 12rem;
   }
 }
 

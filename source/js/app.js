@@ -166,6 +166,7 @@ $(document).ready(function () {
 
             1199: {
                 items: 4,
+                nav: true,
             }
         }
     });

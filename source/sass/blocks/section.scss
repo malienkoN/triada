@@ -5,6 +5,7 @@
 
   &-another {
     padding-top: 0;
+    padding-left: 0;
   }
 }
 
@@ -98,6 +99,39 @@
 .section--photo-gallery {
   padding-left: 4rem;
   margin-bottom: 23.5rem;
+}
+
+.section--our-services {
+  position: relative;
+
+  &:before {
+    @include circle;
+    top: 30%;
+    left: 0;
+  }
+
+  &:after {
+    @include rectangle;
+    top: 10%;
+    right: 0;
+  }
+}
+
+.section--our-services__text-overflow {
+  margin-bottom: 8rem;
+  position: relative;
+
+  &:before {
+    @include circle;
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    @include rectangle;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 @media (max-width: 1599px) {
@@ -205,6 +239,7 @@
 
     &-another {
       padding-top: 0;
+      padding-left: 0;
     }
   }
 }
