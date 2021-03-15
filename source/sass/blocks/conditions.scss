@@ -1,0 +1,17 @@
+.conditions {
+  margin: 10rem 0 0;
+
+  &--first {
+    margin-bottom: 23rem;
+  }
+
+  &--second {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .conditions--first {
+    margin-bottom: 15rem;
+  }
+}
