@@ -19,6 +19,25 @@
   }
 }
 
+// mod contacts
+.contact-us--blue {
+
+  svg {
+    fill: $blue-dark;
+  }
+
+  color: $blue-dark;
+
+  .contact-us__subtitle {
+    color: $blue;
+  }
+
+  .contact-us__title {
+    color: $blue;
+  }
+}
+//
+
 .contact-us__subtitle {
   margin-bottom: 1rem;
   color: #afafaf;
@@ -128,6 +147,13 @@
   }
 }
 
+@media (max-width: 899px) {
+  .contact-us--blue {
+    margin: 0 auto;
+    width: max-content;
+  }
+}
+
 @media (max-width: 575px) {
   .contact-us a {
     font-size: 1.6rem;
@@ -147,6 +173,11 @@
 
   .contact-us__link {
     padding: 1.4rem 3rem;
+  }
+
+  .contact-us--blue {
+    margin: 0;
+    width: 100%;
   }
 }
 
