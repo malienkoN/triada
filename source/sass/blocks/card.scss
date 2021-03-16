@@ -6,7 +6,6 @@
   max-width: 34.6rem;
   margin: 0 auto;
   background-color: #f7f7f7;
-  //box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
 }
 
 .card__header {
@@ -22,7 +21,7 @@
     top: 0;
     right: 0;
     opacity: .3;
-    z-index: 2;
+    z-index: 0;
     background-color: #23304d;
   }
 }
@@ -35,7 +34,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .card__header-price {
@@ -48,7 +47,7 @@
   position: absolute;
   left: 0;
   bottom: 10%;
-  z-index: 3;
+  z-index: 1;
 }
 
 .card__content {
