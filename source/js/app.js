@@ -79,6 +79,13 @@ $(document).ready(function () {
        $('body').addClass('lock');
     });
 
+    $('.product__btn-question').click(function (event) {
+        event.preventDefault();
+
+        $('#callback').fadeIn();
+        $('body').addClass('lock');
+    });
+
     // cart
     $('#cart-trigger').click(function (event) {
         event.preventDefault();

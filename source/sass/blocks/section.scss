@@ -151,6 +151,25 @@
   }
 }
 
+.section--tabs {
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 321px;
+    height: 307px;
+
+    background: url('../../img/services-decor-grid.png') center no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    z-index: -2;
+  }
+}
+
 @media (max-width: 1599px) {
   .section--works {
 
@@ -224,6 +243,15 @@
 
     &:after {
       top: 5%;
+      right: -5%;
+    }
+  }
+
+  .section--tabs {
+
+    &:after {
+      background-size: 80%;
+      bottom: -20%;
       right: -5%;
     }
   }
@@ -348,6 +376,15 @@
       right: -20%;
     }
   }
+
+  .section--tabs {
+
+    &:after {
+      background-size: 70%;
+      bottom: -20%;
+      right: -10%;
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -372,5 +409,12 @@
 
   .section--question {
     margin-bottom: 15rem;
+  }
+
+  .section--tabs {
+
+    &:after {
+      display: none;
+    }
   }
 }
