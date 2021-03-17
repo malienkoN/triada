@@ -6,20 +6,40 @@
   align-items: center;
   list-style: none;
 
+  &--low-margin {
+    margin: 18.5rem 0 6rem;
+  }
+
   @media (max-width: 1899px) {
     margin: 18.5rem 0 20rem 5rem;
+
+    &--low-margin {
+      margin: 18.5rem 0 6rem 5rem;
+    }
   }
 
   @media (max-width: 1199px) {
     margin: 18.5rem 0 20rem 3rem;
+
+    &--low-margin {
+      margin: 18.5rem 0 6rem 3rem;
+    }
   }
 
   @media (max-width: 767px) {
     margin: 16rem 0 14rem 3rem;
+
+    &--low-margin {
+      margin: 16rem 0 6rem 3rem;
+    }
   }
 
   @media (max-width: 575px) {
     margin: 16rem 0 8rem;
+
+    &--low-margin {
+      margin: 16rem 0 6rem;
+    }
   }
 }
 
