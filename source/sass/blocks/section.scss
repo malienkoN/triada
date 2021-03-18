@@ -272,6 +272,20 @@
       right: -5%;
     }
   }
+
+  .section--order {
+
+    &:before {
+      bottom: 20%;
+      left: -10%;
+    }
+
+    &:after {
+      @include rectangle;
+      top: 20%;
+      right: -10%;
+    }
+  }
 }
 
 @media (max-width: 1499px) {
@@ -328,6 +342,20 @@
 
     &:after {
       top: -4%;
+      right: -15%;
+    }
+  }
+
+  .section--order {
+
+    &:before {
+      bottom: 10%;
+      left: -15%;
+    }
+
+    &:after {
+      @include rectangle;
+      top: 10%;
       right: -15%;
     }
   }
