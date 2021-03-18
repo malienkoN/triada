@@ -187,6 +187,17 @@
   }
 }
 
+.section--thanks {
+  margin-bottom: 9rem;
+  position: relative;
+
+  &:after {
+    @include rectangle;
+    top: 20%;
+    right: 0;
+  }
+}
+
 @media (max-width: 1599px) {
   .section--works {
 
@@ -281,8 +292,15 @@
     }
 
     &:after {
-      @include rectangle;
       top: 20%;
+      right: -10%;
+    }
+  }
+
+  .section--thanks {
+
+    &:after {
+      top: 15%;
       right: -10%;
     }
   }
@@ -354,7 +372,14 @@
     }
 
     &:after {
-      @include rectangle;
+      top: 10%;
+      right: -15%;
+    }
+  }
+
+  .section--thanks {
+
+    &:after {
       top: 10%;
       right: -15%;
     }
