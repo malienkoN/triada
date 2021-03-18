@@ -170,6 +170,23 @@
   }
 }
 
+.section--order {
+  margin-bottom: 9rem;
+  position: relative;
+
+  &:before {
+    @include circle;
+    bottom: 20%;
+    left: 0;
+  }
+
+  &:after {
+    @include rectangle;
+    top: 20%;
+    right: 0;
+  }
+}
+
 @media (max-width: 1599px) {
   .section--works {
 
